@@ -1,3 +1,5 @@
+extern crate monoio_transports_netreq_fork as monoio_transports;
+
 #[cfg(not(feature = "hyper-tls"))]
 pub mod http;
 mod request;
