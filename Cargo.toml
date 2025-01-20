@@ -14,7 +14,7 @@ doctest = false
 [dependencies]
 monoio = { version = "0.2.4", default-features = false }
 monoio-http = { version = "0.3.11", optional = true }
-monoio-transports-netreq-fork = { version = "0.1.0", default-features = false }
+monoio-transports-netreq-fork = { version = "0.1.1", default-features = false }
 hyper = { version = "1.5.0", optional = true }
 http-body-util = { version = "0.1.2", optional = true }
 http = "1.1.0"
