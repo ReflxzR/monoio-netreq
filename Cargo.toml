@@ -1,6 +1,6 @@
 [package]
 name = "monoio-netreq"
-version = "0.1.0"
+version = "0.1.2"
 edition = "2021"
 authors = ["Priyanshu Singh <anshu.singh1429@gmail.com>"]
 description = "monoio-netreq is a user-friendly HTTP client library designed for use with the Monoio runtime"
