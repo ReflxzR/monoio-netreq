@@ -9,6 +9,10 @@ mod error;
 pub mod hyper;
 mod key;
 
+pub use error::Error;
+pub use request::HttpRequest;
+pub use response::HttpResponse;
+
 #[derive(Default, Clone, PartialEq, Debug)]
 enum Protocol {
     Http1,
